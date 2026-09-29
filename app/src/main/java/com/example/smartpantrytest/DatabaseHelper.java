@@ -389,6 +389,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         cv.put(COL_RI_NAME, name);
         cv.put(COL_RI_QTY, qty);
         cv.put(COL_RI_UNIT, unit);
-        db.insert(TABLE_RECIPE_INGREDIENT, null, cv);
+        db.insert(TABLE_RECIPE_INGREDIENTS, null, cv);
     }
 }
